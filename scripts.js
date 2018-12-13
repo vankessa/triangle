@@ -10,12 +10,11 @@ if(firstSide===secondSide===thirdSide){
 else if((firstSide===secondSide) && (firstSide!=thirdSide) && (secondSide!=thirdSide)){
     console.log(triangle[1]);
 }
-else if( ((firstSide!=secondSide)&&(firstSide!=thirdSide)&&(secondSide!=thirdSide)){
+else if((firstSide!=secondSide)&&(firstSide!=thirdSide)&&(secondSide!=thirdSide)&&((firstSide+secondSide)>thirdSide)){
     console.log(triangle[2]);
 }
-else{
+    
 
-}
 
 
 
