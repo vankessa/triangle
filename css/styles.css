@@ -4,7 +4,10 @@ body{
     background-color:skyblue;
 }
 h1  {
-    
+    text-align: center;
     color:darkcyan;
+}
+#one,#two,#three,#four{
+    padding: 10px;
 }
 
