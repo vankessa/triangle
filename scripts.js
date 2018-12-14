@@ -1,21 +1,26 @@
-function myFunction1(){
-    var firstString1=document.getElementById("my number1").value;
+ function myFunction(){
+     var firstString1=document.getElementById("my number1").value;
     alert(firstString1);
-}
-function myFunction2(){
-    var firstString2=document.getElementById("my number2").value;
-    alert(firstString2);
-}
-
-function myFunction3(){
+ 
+     var firstString2=document.getElementById("my number2").value;
+     alert(firstString2);
     var firstString3=document.getElementById("my number3").value;
     alert(firstString3);
-}
+
     
 var triangle =['Equilateral','Isosceles','Scalene'];
-if(toGetTriangle(firstString1+firstString2>firstString3)){
-    
+if(firstString1+firstString2>firstString3){
+    Text="not a triangle";
+    // if(toGetEquilateral((firstString1===firstString2)&&(firstString1===firstString3)&&(firstString2===firstString3))){
+    //     alert(triangle[0]);
+    // }
+    // else {
+    //     alert("not a triangle");
+    // }
+
 }
+document.getElementById('demo').innerHTML = text;
+ }
 
 
     
