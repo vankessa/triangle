@@ -16,6 +16,9 @@ var Sum1 = function(value1, value2) {
      var value3=document.getElementById('three').value;
      var text;
     }
+    if(Sum1(value1,value2) <= value3 || Sum2(value2,value3) <= value1 || Sum3(value1,value3) <= value2){
+        text="it is not a triangle"
+    }
     
 
 
