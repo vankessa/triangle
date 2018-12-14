@@ -1,8 +1,9 @@
 
 body{
-    box-shadow: 4px 4px 5px inset cyan;
+    box-shadow: 4px 4px 5px inset cadetblue;
     
-    padding: 20px;
+    padding: 50px;
+    margin: 50px;
     background-color:skyblue;
 }
 h1  {
@@ -14,5 +15,33 @@ h1  {
 }
 #one,#two,#three,#four{
     padding: 5px;
+}
+input {
+    box-shadow: 2px 2px 5px inset cadetblue;
+}
+strong {
+    color: cadetblue;
+    font-size: 15px;
+}
+button {
+    box-shadow:2px 2px 5px inset cadetblue;
+    color:darkcyan; 
+}
+#demo {
+    color:darkcyan
+    
+}
+placeholder {
+    color:cyan;
+}
+#h,#f{
+    padding:60px;
+}
+#f {
+    color:whitesmoke;
+}
+footer {
+    background-color:darkcyan;
+    background-position: cover;
 }
 
