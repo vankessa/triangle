@@ -32,6 +32,9 @@ var Sum1 = function(value1, value2) {
         text=triangle[2];
     }
     //Scalene Triangle
+    else{
+        text = "it is not a triangle.";
+    }
     
 
 
