@@ -1,5 +1,7 @@
+
 body{
-    border: 20px;
+    box-shadow: 4px 4px 5px inset cyan;
+    
     padding: 20px;
     background-color:skyblue;
 }
@@ -7,7 +9,10 @@ h1  {
     text-align: center;
     color:darkcyan;
 }
-#one,#two,#three,#four{
+.four,.five,.six,.seven{
     padding: 10px;
+}
+#one,#two,#three,#four{
+    padding: 5px;
 }
 
