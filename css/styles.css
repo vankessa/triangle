@@ -1,4 +1,8 @@
-*{
+body{
     border: 20px;
     padding: 20px;
+    background-color:skyblue;
+}
+h1  {
+    color:darkcyan;
 }
