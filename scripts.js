@@ -22,6 +22,11 @@ var Sum1 = function(value1, value2) {
     else if(value1 === value2 && value2 === value3){
         text = triangle[0];
     }
+     //Equivalent Triangle
+    
+     else if(value1===value2 || value1===value3 || value2===value3) {
+        text=triangle[1];
+    }
     
 
 
