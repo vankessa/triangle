@@ -3,6 +3,11 @@
  * by Ujeneza Vanessa,Moringa School
 ## Description
 * This website is designed to check the kind of triangle according to the numbers you intered and the rules for each kind of triangle.We have equilateral,isosceles,scalene triangles or you entered the numbers which can't form a triangle.
+* For an equilateral triangle, all sides must be equal.
+* For an isosceles triangle, two sides are exactly equal.
+* For a scalene triangle, none of the sides is equal. However, the sum of any two sides of the triangle must be greater than the third side.
+* Triangle can't be formed,if the sum of any two sides of the triangle is equal to or less than the third remaining side
+
 ## User story
 * As a user, I want to enter the length values of the three sides of my triangle in the application
 * After submitting my values, the application should tell me what type of triangle my values will produce, whether an isosceles, equilateral, scalene or NO triangle at all.
