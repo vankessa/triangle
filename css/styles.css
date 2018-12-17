@@ -6,7 +6,7 @@ body{
     margin: 50px;
     background-color:skyblue;
 }
-h1  {
+h1 ,h2 {
     text-align: center;
     color:darkcyan;
 }
@@ -43,5 +43,8 @@ placeholder {
 footer {
     background-color:darkcyan;
     background-position: cover;
+}
+a  {
+    padding: 10px;
 }
 
