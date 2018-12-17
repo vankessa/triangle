@@ -12,7 +12,7 @@
 * As a user, I want to enter the length values of the three sides of my triangle in the application
 * After submitting my values, the application should tell me what type of triangle my values will produce, whether an isosceles, equilateral, scalene or NO triangle at all.
 ## BDD
-##     Input                                                                 output                  behavior
+##                                                                                                     Input                                                          output                    behavior
    | when you inserted equal values means all your sides are equal  |  Equilateral triangle | All sides must be equal    |
    | when you entered values and two of its are equal               |isosceles triangle     | Any two sides must be equal|
    | when no value is equal to each other means sides are not equal |scalene triangle       | all sides are not equal    |
@@ -24,7 +24,7 @@
 ## Technologies Used
  * I used HTML,script and CSS.
 ## Link to live site on github pages
-* 
+* https://github.com/vankessa/triangle
 ## Contact information
 * phone number:+250783492863
 * Email:vankessa@gmail.com
