@@ -18,6 +18,7 @@
      
      
      var text;
+     var array=[value1,value2,value3];
     
      if(Sum1(value1,value2) > value3 || Sum2(value2,value3) > value1 || Sum3(value1,value3) > value2){
         // text="this values can't form a triangle"
@@ -48,8 +49,8 @@
         text = "it is not a triangle.";
      }
      
-    
-     document.getElementById('demo').innerHTML=text;
+     document.getElementById('demo').innerHTML="The side of trianges are["+array+"]"+" is ";
+     document.getElementById('demo').innerHTML+=text;
 }
     
     
